@@ -1,2 +1,3 @@
-{"Bible: Original Text": "https://github.com/Mish7913/Bible7913/raw/master/modules/orig.tar.gz", 
- "Библия: Синодальный перевод": "https://github.com/Mish7913/Bible7913/raw/master/modules/rst.tar.gz"}
+{"Bible: Original Text": ["orig", "https://github.com/Mish7913/Bible7913/raw/master/modules/orig.tar.gz"], 
+ "Біблія: Переклад. Івана Огієнка, 1988": ["ua", "https://github.com/Mish7913/Bible7913/raw/master/modules/ubio.tar.gz"], 
+ "Библия: Синодальный перевод": ["ru", "https://github.com/Mish7913/Bible7913/raw/master/modules/rst.tar.gz"]}
