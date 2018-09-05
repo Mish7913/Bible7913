@@ -1,13 +1,13 @@
 {
-  "translations": {
-		"Bible: Original Text": ["orig", "1.0", "with Strong's numbers", "https://github.com/Mish7913/Bible7913/raw/master/modules/orig.tar.gz"], 
-		"Біблія: Переклад. Івана Огієнка, 1988": ["ua", "1.0", "", "https://github.com/Mish7913/Bible7913/raw/master/modules/ubio.tar.gz"], 
-		"Библия: Синодальный перевод": ["ru", "1.0", "с номерами Стронга", "https://github.com/Mish7913/Bible7913/raw/master/modules/rst.tar.gz"]
+   "translations": {
+      "Bible: Original Text": ["orig", "1.0", "with Strong's numbers", "https://github.com/Mish7913/Bible7913/raw/master/modules/orig.tar.gz"], 
+      "Біблія: Переклад. Івана Огієнка, 1988": ["ua", "1.0", "", "https://github.com/Mish7913/Bible7913/raw/master/modules/ubio.tar.gz"], 
+      "Библия: Синодальный перевод": ["ru", "1.0", "с номерами Стронга", "https://github.com/Mish7913/Bible7913/raw/master/modules/rst.tar.gz"]
 	}
-  "dictionaries": {
-    
-  }
-  "strongs": {
-    "Словарь Стронга, русский перевод.": ["ru", "1.0", "https://github.com/Mish7913/Bible7913/raw/master/modules/ru_strong.tar.gz"]
-  }
+   "dictionaries": {
+      
+   }
+   "strongs": {
+      "Словарь Стронга, русский перевод.": ["ru", "1.0", "https://github.com/Mish7913/Bible7913/raw/master/modules/ru_strong.tar.gz"]
+   }
 }
