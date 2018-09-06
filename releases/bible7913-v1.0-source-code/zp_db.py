@@ -54,6 +54,7 @@ def main(args):
 	settings = file_ltr(file_settings);
 	
 	main_window = obj("main_window"); main_window.connect("destroy", quit);
+	main_window.set_icon_from_file('icon.svg');
 	try:
 		if settings['close_btn'] == "right": main_window.set_titlebar(obj("main_header_bar_right"));
 		else: main_window.set_titlebar(obj("main_header_bar_left"));
@@ -118,7 +119,7 @@ def main(args):
 	obj("search_entry").connect("activate", search_func);
 	
 	if (os.path.isfile('/tmp/bible7913.strong')): strong_view.open('file:///tmp/bible7913.strong');
-	main_window.show_all(); main_window.maximize(); obj("search_dict").hide();
+	main_window.show_all(); main_window.maximize(); obj("search_dict").hide(); main_window.set_title("Bible7913");
 	
 	gtk.main();
 	
