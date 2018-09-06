@@ -21,13 +21,15 @@
 
 #include <iostream>
 #include <stdlib.h>
-#include "str.h"
+#include <str.h>
 
 std::string tmp_str;
 std::map <int, std::string> tmp_map;
 
 int main(int argc, char **argv){
-    system("python /usr/share/bible7913/zp_db.pyc");
+    tmp_str = std::string(argv[0]); tmp_map = str::split_to_map(tmp_str, "/"); tmp_str = "python " + tmp_map[0];
+    for(int i = 1;  i < int(tmp_map.size()) - 1; i++){ tmp_str += "/" + tmp_map[i]; }
+    tmp_str += "/zp_db.pyc"; system(tmp_str.c_str());
     return 0;
 }
 
