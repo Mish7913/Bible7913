@@ -1,0 +1,11 @@
+{
+	"code":    "en_US",
+	"lng":     "English",
+	"EXIT":    "Exit",
+	"ABOUT":   "About",
+	"S_BOOK":  "Select book",
+	"S_CHAP":  "Select chapter",
+	"S_VERSE": "Select verse",
+	'LNG_BOOKS': 'Languages Books',
+	'SEARCH': 'Search'	
+}
