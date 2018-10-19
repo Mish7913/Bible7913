@@ -3,7 +3,7 @@
 > :ukraine: **Опис:** Глибоке вивчення рядків Біблії.
 
 **License:** GNU General Public License<br>
-**Latest version:** 1.0.1-20180906
+**Latest version:** 1.2.0-20181019
 <hr>
 
 ## :arrow_down: Download
